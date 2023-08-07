@@ -13,7 +13,7 @@
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="name">Nom</label>
-              <input type="text" name="name" class="form-control" placeholder="Nom" id="name" required
+              <input type="text" name="Nom" class="form-control" placeholder="Nom" id="name" required
                 data-validation-required-message="Entrez votre nom.">
               <p class="help-block text-danger"></p>
             </div>
@@ -21,19 +21,19 @@
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="email">Adresse mail</label>
-              <input type="email" name="_replyto" class="form-control" placeholder="Adresse mail" id="email" required
+              <input type="email" name="Répondre à" class="form-control" placeholder="Adresse mail" id="email" required
                 data-validation-required-message="Entrez votre adresse mail.">
               <p class="help-block text-danger"></p>
             </div>
           </div>
           <div>
-            <input type="hidden" name="_subject" value="Nouvel envoi !">
+            <input type="hidden" name="_subject" value="Message de {{ name }}">
             <input type="text" name="_gotcha" style="display:none" />
           </div>
           <div class="row control-group">
             <div class="form-group col-xs-12 floating-label-form-group controls">
               <label for="message">Message</label>
-              <textarea rows="5" name="message" class="form-control" placeholder="Message" id="message" required
+              <textarea rows="5" name="Message" class="form-control" placeholder="Message" id="message" required
                 data-validation-required-message="Entrez un message."></textarea>
               <p class="help-block text-danger"></p>
             </div>
