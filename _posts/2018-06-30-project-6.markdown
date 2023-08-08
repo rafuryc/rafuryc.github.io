@@ -2,7 +2,7 @@
 layout: default
 modal-id: 6
 date: 2018-06-30
-img: arpb.png
+img: submarine.png
 alt: image-alt
 project-date: Juin 2018
 category: Enseignement Secondaire
