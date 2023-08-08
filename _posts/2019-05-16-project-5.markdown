@@ -7,5 +7,5 @@ alt: image-alt
 project-date: Mai 2019
 title: Séjour à Vancouver,BC (Canada)
 category: Immersion à l'étranger
-description: De septembre 2018 à mai 2019, j'ai vécu en famille d'acceuil à Vancouver. C'est une des expériences les plus enrichissantes de ma vie. J'ai rencontré des personnes de diverses cultures et pays. J'ai également obtenu le niveau C1 en passant l'examen Cambridge CPE.
+description: De septembre 2018 à mai 2019, j'ai vécu en famille d'acceuil à Vancouver via l'organisme EF. C'est une des expériences les plus enrichissantes de ma vie. J'ai rencontré des personnes de diverses cultures et pays. J'ai également obtenu le niveau C1 en passant l'examen Cambridge CPE.
 ---
