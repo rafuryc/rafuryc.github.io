@@ -54,7 +54,7 @@ address:
   - line: Belgique
 
 # Credits content
-credits: 'Template Jekyll utilisé pour ce site : <a href="https://github.com/jeromelachaud/freelancer-theme">Freelancer</a>.'
+credits: 'Template Jekyll utilisé pour ce site : <a href="https://github.com/jeromelachaud/freelancer-theme" target="_blank" rel="noopener noreferrer">Freelancer</a>.'
 
 # Build settings
 markdown: kramdown
