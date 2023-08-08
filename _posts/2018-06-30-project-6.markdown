@@ -5,8 +5,8 @@ date: 2018-06-30
 img: submarine.png
 alt: image-alt
 project-date: Juin 2018
-title : Athénée Royal Prince Baudouin
-category : Enseignement Secondaire
-description : Entre 2012 et 2018, suivi de l'enseignement secondaire général belge à l'ARPB de Marchin en option Math 7, Sciences 7, Anglais, Latin. J'ai également été rédacteur en chef du journal de l'école : le Son De l'Enclume (SDE).
+title: Athénée Royal Prince Baudouin
+category: Enseignement Secondaire
+description: Entre 2012 et 2018, suivi de l'enseignement secondaire général belge à l'ARPB de Marchin en option Math 7, Sciences 7, Anglais, Latin. J'ai également été rédacteur en chef du journal de l'école : le Son De l'Enclume (SDE).
 ---
 
