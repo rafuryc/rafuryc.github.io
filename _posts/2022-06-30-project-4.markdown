@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 4
+date: 2022-06-30
+img: helmo.png
+alt: image-alt
+project-date: Juin 2022
+title: Bachelier en Automation industrielle
+category: Bachelier
+description: J'ai suivi un bachelier en automatisation à la Haute École Libre Mosane (HELMo) pendant 3 ans. Malgré la crise sanitaire, j'ai réussi à m'adapter facilement. J'ai participé au concours Robotfly de Stäubli à Courtrai, ce fut une belle expérience. Pour mon Travail de Fin d'Études, j'ai réalisé la rénovation d'une station de pompage d'eau potable de la SWDE chez Eiffage ECV. J'ai finalement obtenu la note de 85,43%, me permettant d'obtenir la Plus Grande Disctinction.
+---
