@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 1
+date: 2024-06-30
+img: hepl.png
+alt: image-alt
+project-date: Fin prévue en Juin 2024
+title: Master en Architecture des Systèmes Informatiques
+category: Master
+description: Actuellement dans la réalisation d'un Master en Architecture des Systèmes Informatiques à la Haute École de la Province de Liège (HEPL). Ce cursus me permet d'apprendre les différents outils informatiques utiles à ce qui m'intéresse le plus, c'est-à-dire le Manufacturing Executive System (MES) et les jumeaux numériques.
+---

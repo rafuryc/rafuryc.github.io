@@ -1,0 +1,11 @@
+---
+layout: default
+modal-id: 2
+date: 2023-09-30
+img: forma.png
+alt: image-alt
+project-date: Septembre 2023
+title: Formation en Techniques Immersives VR
+category: Formation
+description: Dans le cadre de cette formation, j'ai appris à utiliser le moteur de jeu Unreal Engine 5 afin de développer un jeu-vidéo en réalité virtuelle. J'ai réalisé une expérience immersive où le joueur peut revivre la scène du parking du film Retour Vers Le Futur.
+---
