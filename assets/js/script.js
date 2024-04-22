@@ -17,7 +17,7 @@ $(document).ready(function () {
     // scroll spy
     $("section").each(function () {
       let height = $(this).height();
-      let offset = $(this).offset().top - 200;
+      let offset = $(this).offset().top - 100;
       let top = $(window).scrollTop();
       let id = $(this).attr("id");
 
