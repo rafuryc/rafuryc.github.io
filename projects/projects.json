@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Santa Secret Stash Quest",
+    "desc": "projects.santa",
+    "image": "santa",
+    "links": {
+      "video": "/assets/videos/Santa Secret Stash Quest - Gameplay.mp4"
+    }
+  },
+  {
+    "name": "Retour Vers Le Futur Le Jeu VR",
+    "desc": "projects.rvlfvr",
+    "image": "rvlfvr",
+    "links": {
+      "video": "/assets/videos/Gameplay RVLFLeJeuVR.mp4"
+    }
+  },
+  {
+    "name": "Class O'Matic",
+    "desc": "projects.classomatic",
+    "image": "classomatic",
+    "links": {}
+  },
+  {
+    "name": "Home Assistant",
+    "desc": "projects.homeassistant",
+    "image": "homeassistant",
+    "links": {}
+  }
+]

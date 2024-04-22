@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="timothy masset, portfolio, rafuryc, virtual reality dev, automation engineer, portfolio design, portfolio website, personal portfolio"
+    />
+    <meta
+      name="description"
+      content="Welcome to Timothy Masset's portfolio !"
+    />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/012fb31971.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Favicon -->
+    <link
+      id="favicon"
+      rel="shortcut icon"
+      href="./assets/images/favicon.png"
+      type="image/x-png"
+    />
+    <title>Portfolio | Timothy Masset</title>
+  </head>
+  <body oncontextmenu="return false">
+    <!-- pre loader -->
+    <!-- <div class="loader-container">
+  <img draggable="false" src="./assets/images/preloader.gif" alt="">
+</div> -->
+
+    <!-- navbar starts -->
+    <header>
+      <a href="/" class="logo"
+        ><i class="fa-solid fa-vr-cardboard"></i> Timothy Masset</a
+      >
+
+      <div id="menu" class="fas fa-bars"></div>
+      <nav class="navbar">
+        <ul>
+          <li>
+            <a class="active" href="#home" data-translation-key="home"></a>
+          </li>
+          <li><a href="#about" data-translation-key="about"></a></li>
+          <li><a href="#skills" data-translation-key="skills"></a></li>
+          <li><a href="#education" data-translation-key="education"></a></li>
+          <li><a href="#work" data-translation-key="work"></a></li>
+          <li><a href="#experience" data-translation-key="experience"></a></li>
+          <li><a href="#contact" data-translation-key="contact"></a></li>
+        </ul>
+      </nav>
+      <!--
+        <select class="selector" id="langSelect">
+          <option value="en"> <img src="./assets/images/flags/united-kingdom.png" alt="English"> English</option>
+          <option value="fr" selected>Français</option>
+        </select>
+        -->
+      <div>
+        <img
+          class="langSelect selected"
+          src="./assets/images/flags/france.png"
+          alt="Français"
+          data-lang="fr"
+          width="50"
+        />
+        <img
+          class="langSelect"
+          src="./assets/images/flags/united-kingdom.png"
+          alt="English"
+          data-lang="en"
+          width="50"
+        />
+      </div>
+    </header>
+    <!-- navbar ends -->
+
+    <!-- hero section starts -->
+    <section class="home" id="home">
+      <div id="particles-js"></div>
+      <div class="content">
+        <h2 data-translation-key="greeting"><br /><span></span></h2>
+        <div style="display: flex">
+          <p data-translation-key="into"></p>
+          <span>&nbsp;&nbsp;&nbsp;</span>
+          <p><span class="typing-text"></span></p>
+        </div>
+        <a href="#about" class="btn"
+          ><span data-translation-key="about"></span>
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <div class="socials">
+          <ul class="social-icons">
+            <li>
+              <a
+                class="linkedin"
+                aria-label="LinkedIn"
+                href="https://www.linkedin.com/in/timothy-masset/"
+                target="_blank"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="github"
+                aria-label="GitHub"
+                href="https://github.com/rafuryc"
+                target="_blank"
+                ><i class="fab fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                class="facebook"
+                aria-label="Facebook"
+                href="https://www.facebook.com/timothymasset"
+                target="_blank"
+                ><i class="fab fa-facebook"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          draggable="false"
+          class="tilt"
+          src="./assets/images/hero.png"
+          alt=""
+        />
+      </div>
+    </section>
+    <!-- hero section ends -->
+
+    <!-- about section starts -->
+    <section class="about" id="about">
+      <h2 class="heading" data-translation-key="aboutSection"><span></span></h2>
+
+      <div class="row">
+        <div class="image">
+          <img
+            draggable="false"
+            class="tilt"
+            src="./assets/images/profile2.jpg"
+            alt=""
+          />
+        </div>
+        <div class="content">
+          <h3 data-translation-key="iam"></h3>
+          <span class="tag" data-translation-key="job"></span>
+
+          <p data-translation-key="description"></p>
+
+          <div class="box-container">
+            <!-- <div class="box">
+              <p><span> age: </span> 20</p>
+              <p><span> phone : </span> +91 XXX-XXX-XXXX</p>
+            </div> -->
+            <div class="box">
+              <p>
+                <span> <i class="fa-regular fa-envelope"></i> : </span>
+                contact@timothymasset.be
+              </p>
+              <p>
+                <span> <i class="fa-solid fa-house"></i> : </span
+                ><a data-translation-key="address"></a>
+              </p>
+            </div>
+          </div>
+
+          <div class="resumebtn">
+            <a
+              href="assets/pdfs/Masset Timothy - Europass CV [FR].pdf"
+              target="_blank"
+              class="btn"
+              id="pdfLinkfr"
+              ><span>Mon CV</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+            <a
+              href="assets/pdfs/Masset Timothy - Europass CV [EN].pdf"
+              target="_blank"
+              class="btn"
+              id="pdfLinken"
+              style="display: block"
+              ><span>My Resume</span>
+              <i class="fas fa-chevron-right"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends -->
+
+    <!-- skills section starts -->
+    <section class="skills" id="skills">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i>
+        <span data-translation-key="skills"></span>
+      </h2>
+
+      <div class="container">
+        <div class="row" id="skillsContainer">
+          <!-- <div class="bar">
+              <div class="info">
+                <img src="https://img.icons8.com/color/48/000000/adobe-xd.png"/>
+                <span>AdobeXD</span>
+              </div>
+            </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+
+    <!-- education section starts -->
+    <section class="education" id="education">
+      <h1 class="heading">
+        <i class="fas fa-graduation-cap"></i>
+        <span data-translation-key="education"></span>
+      </h1>
+
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/hepl.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3 data-translation-key="hepl.title"></h3>
+            <p data-translation-key="hepl.name"></p>
+            <h4 data-translation-key="hepl.date"></h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/esaacademy.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3 data-translation-key="esacyber.title"></h3>
+            <p data-translation-key="esacyber.name"></p>
+            <h4 data-translation-key="esacyber.date"></h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/forma+.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3 data-translation-key="formavr.title"></h3>
+            <p data-translation-key="formavr.name"></p>
+            <h4 data-translation-key="formavr.date"></h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/helmo.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3 data-translation-key="helmo.title"></h3>
+            <p data-translation-key="helmo.name"></p>
+            <h4 data-translation-key="helmo.date"></h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img draggable="false" src="./assets/images/educat/ef.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3 data-translation-key="ef.title"></h3>
+            <p data-translation-key="ef.name"></p>
+            <h4 data-translation-key="ef.date"></h4>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img
+              draggable="false"
+              src="./assets/images/educat/arpb.jpg"
+              alt=""
+            />
+          </div>
+          <div class="content">
+            <h3 data-translation-key="arpb.title"></h3>
+            <p data-translation-key="arpb.name"></p>
+            <h4 data-translation-key="arpb.date"></h4>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- education section ends -->
+
+    <!-- work project section starts -->
+    <section class="work" id="work">
+      <h2 class="heading">
+        <i class="fas fa-laptop-code"></i>
+        <span data-translation-key="work"></span>
+      </h2>
+
+      <div class="box-container">
+        <!-- <div class="box tilt">
+      <img draggable="false" src="./assets/images/projects/portfolio1.PNG" alt="" />
+      <div class="content">
+        <div class="tag">
+        <h3>Portfolio Website</h3>
+        </div>
+        <div class="desc">
+          <p>Personal portfolio website. Don't need much info about it, just scroll down. You're here only!</p>
+          <div class="btns">
+            <a href="#" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
+            <a href="https://github.com/jigar-sable/Portfolio-Website" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+          </div>
+        </div>
+      </div>
+    </div> -->
+      </div>
+
+      <!--<div class="viewall">
+        <a href="/projects" class="btn"
+          ><span>View All</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>-->
+
+      <div id="videoPopup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closeVideoPopup()">&times;</span>
+          <video
+            class="video"
+            id="videoPlayer"
+            controls
+            controlsList="nodownload"
+            onloadstart="this.volume=0.5"
+          >
+            <source src="" type="video/mp4" />
+          </video>
+        </div>
+      </div>
+    </section>
+    <!-- work project section ends -->
+
+    <!-- experience section starts -->
+    <section class="experience" id="experience">
+      <h2 class="heading">
+        <i class="fas fa-briefcase">&nbsp;</i
+        ><a data-translation-key="experience"></a>
+      </h2>
+
+      <div class="timeline">
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2 data-translation-key="sineca.intern.name"></h2>
+            </div>
+            <div class="desc">
+              <h3 data-translation-key="sineca.intern.job"></h3>
+              <p data-translation-key="sineca.intern.date"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2 data-translation-key="rtbf.2223.name"></h2>
+            </div>
+            <div class="desc">
+              <h3 data-translation-key="rtbf.2223.job"></h3>
+              <p data-translation-key="rtbf.2223.date"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2 data-translation-key="walibi.22.name"></h2>
+            </div>
+            <div class="desc">
+              <h3 data-translation-key="walibi.22.job"></h3>
+              <p data-translation-key="walibi.22.date"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container left">
+          <div class="content">
+            <div class="tag">
+              <h2 data-translation-key="ecv.intern.name"></h2>
+            </div>
+            <div class="desc">
+              <h3 data-translation-key="ecv.intern.job"></h3>
+              <p data-translation-key="ecv.intern.date"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="container right">
+          <div class="content">
+            <div class="tag">
+              <h2 data-translation-key="rtbf.1921.name"></h2>
+            </div>
+            <div class="desc">
+              <h3 data-translation-key="rtbf.1921.job"></h3>
+              <p data-translation-key="rtbf.1921.date"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="morebtn">
+        <a href="/experience" class="btn"
+          ><span>View All</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div> -->
+    </section>
+    <!-- experience section ends -->
+
+    <!-- contact section starts -->
+    <section class="contact" id="contact">
+      <h2 class="heading">
+        <i class="fas fa-headset">&nbsp;</i
+        ><span data-translation-key="contact"></span>
+      </h2>
+
+      <div class="container">
+        <div class="content">
+          <div class="image-box">
+            <img draggable="false" src="./assets/images/contact1.png" alt="" />
+          </div>
+          <form id="contact-form">
+            <div class="form-group">
+              <div class="field">
+                <input
+                  id="nameInput"
+                  type="text"
+                  name="user_name"
+                  placeholder="Name"
+                  required
+                />
+                <i class="fas fa-user"></i>
+              </div>
+              <div class="field">
+                <input
+                  id="emailInput"
+                  type="text"
+                  name="user_email"
+                  placeholder="Email"
+                  required
+                />
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="field">
+                <input
+                  id="phoneInput"
+                  type="text"
+                  name="contact_number"
+                  placeholder="Phone"
+                />
+                <i class="fas fa-phone-alt"></i>
+              </div>
+              <div class="message">
+                <textarea
+                  id="messageTextarea"
+                  placeholder="Message"
+                  name="message"
+                  required
+                ></textarea>
+                <i class="fas fa-comment-dots"></i>
+              </div>
+            </div>
+            <div class="button-area">
+              <button type="submit">
+                <i class="fa fa-paper-plane"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends -->
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3 data-translation-key="footer.portfolio"></h3>
+          <p data-translation-key="footer.message"></p>
+        </div>
+
+        <div class="box">
+          <h3 data-translation-key="footer.quicklinks"></h3>
+          <a href="#home"
+            ><i class="fas fa-chevron-circle-right">&nbsp;</i
+            ><span data-translation-key="home"></span
+          ></a>
+          <a href="#about"
+            ><i class="fas fa-chevron-circle-right">&nbsp;</i
+            ><span data-translation-key="about"></span
+          ></a>
+          <a href="#skills"
+            ><i class="fas fa-chevron-circle-right">&nbsp;</i
+            ><span data-translation-key="skills"></span
+          ></a>
+          <a href="#education"
+            ><i class="fas fa-chevron-circle-right">&nbsp;</i
+            ><span data-translation-key="education"></span
+          ></a>
+          <a href="#work"
+            ><i class="fas fa-chevron-circle-right">&nbsp;</i
+            ><span data-translation-key="work"></span
+          ></a>
+          <a href="#experience"
+            ><i class="fas fa-chevron-circle-right">&nbsp;</i
+            ><span data-translation-key="experience"></span
+          ></a>
+        </div>
+
+        <div class="box">
+          <h3 data-translation-key="contact"></h3>
+          <p><i class="fas fa-phone"></i>+32 (0)486/28.00.19</p>
+          <p><i class="fas fa-envelope"></i>contact@timothymasset.be</p>
+          <p>
+            <i class="fas fa-map-marked-alt">&nbsp;</i
+            ><span data-translation-key="address"></span>
+          </p>
+          <div class="share">
+            <a
+              href="https://www.linkedin.com/in/timothy-masset/"
+              class="fab fa-linkedin"
+              aria-label="LinkedIn"
+              target="_blank"
+            ></a>
+            <a
+              href="https://github.com/rafuryc"
+              class="fab fa-github"
+              aria-label="GitHub"
+              target="_blank"
+            ></a>
+            <a
+              href="mailto:contact@timothymasset.be"
+              class="fas fa-envelope"
+              aria-label="Mail"
+              target="_blank"
+            ></a>
+            <a
+              href="https://www.facebook.com/timothymasset"
+              class="fab fa-facebook"
+              aria-label="Facebook"
+              target="_blank"
+            ></a>
+          </div>
+        </div>
+      </div>
+
+      <h1 class="credit">
+        <i class="fa-regular fa-copyright"></i>2024 - Timothy Masset | Template
+        from <i class="fab fa-github"></i> by
+        <a href="https://github.com/jigar-sable/Portfolio-Website">
+          jigar sable</a
+        >
+      </h1>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- scroll top btn -->
+    <a
+      href="#home"
+      aria-label="ScrollTop"
+      class="fas fa-angle-up"
+      id="scroll-top"
+    ></a>
+    <!-- scroll back to top -->
+
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS STARTS ==== -->
+    <!-- jquery cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- typed.js cdn -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.5/typed.min.js"
+      integrity="sha512-1KbKusm/hAtkX5FScVR5G36wodIMnVd/aP04af06iyQTkD17szAMGNmxfNH+tEuFp3Og/P5G32L1qEC47CZbUQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- particle.js links -->
+    <script src="./assets/js/particles.min.js"></script>
+    <script src="./assets/js/app.js"></script>
+
+    <!-- vanilla tilt.js links -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"
+      integrity="sha512-SttpKhJqONuBVxbRcuH0wezjuX+BoFoli0yPsnrAADcHsQMW8rkR84ItFHGIkPvhnlRnE2FaifDOUw+EltbuHg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <!-- scroll reveal anim -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
+    ></script>
+
+    <!-- ==== ALL MAJOR JAVASCRIPT CDNS ENDS ==== -->
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/language_switcher.js"></script>
+  </body>
+</html>
